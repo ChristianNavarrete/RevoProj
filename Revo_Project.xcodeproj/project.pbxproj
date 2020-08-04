@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A3E558C24D49550007C47B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E558B24D49550007C47B2 /* AppDelegate.swift */; };
+		4A3E558E24D49550007C47B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E558D24D49550007C47B2 /* SceneDelegate.swift */; };
+		4A3E559024D49550007C47B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E558F24D49550007C47B2 /* ViewController.swift */; };
+		4A3E559324D49550007C47B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3E559124D49550007C47B2 /* Main.storyboard */; };
+		4A3E559524D49551007C47B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3E559424D49551007C47B2 /* Assets.xcassets */; };
+		4A3E559824D49551007C47B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3E559624D49551007C47B2 /* LaunchScreen.storyboard */; };
+		4A3E55A324D49551007C47B2 /* Revo_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E55A224D49551007C47B2 /* Revo_ProjectTests.swift */; };
+		4A3E55AE24D49551007C47B2 /* Revo_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E55AD24D49551007C47B2 /* Revo_ProjectUITests.swift */; };
+		4A3E55BC24D49943007C47B2 /* PartOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E55BB24D49943007C47B2 /* PartOneViewController.swift */; };
+		4A3E55BF24D64110007C47B2 /* FirstCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E55BD24D6410F007C47B2 /* FirstCustomCell.swift */; };
+		4A3E55C024D64110007C47B2 /* FirstCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A3E55BE24D6410F007C47B2 /* FirstCustomCell.xib */; };
+		4A3E55C724D7195A007C47B2 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E55C524D7195A007C47B2 /* MyCollectionViewCell.swift */; };
+		4A3E55C824D7195A007C47B2 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A3E55C624D7195A007C47B2 /* MyCollectionViewCell.xib */; };
+		4A3E55CE24D7217D007C47B2 /* SecondCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E55CC24D7217D007C47B2 /* SecondCustomCell.swift */; };
+		4A3E55CF24D7217D007C47B2 /* SecondCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A3E55CD24D7217D007C47B2 /* SecondCustomCell.xib */; };
+		4A3E55D124D75D11007C47B2 /* PartTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E55D024D75D11007C47B2 /* PartTwoViewController.swift */; };
+		4A3E55D324D7D0C1007C47B2 /* BonusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E55D224D7D0C1007C47B2 /* BonusViewController.swift */; };
+		4A3E55D624D7FCBB007C47B2 /* TopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E55D424D7FCBB007C47B2 /* TopCollectionViewCell.swift */; };
+		4A3E55DB24D89364007C47B2 /* NewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E55D924D89364007C47B2 /* NewCollectionViewCell.swift */; };
+		4A3E55DC24D89364007C47B2 /* NewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A3E55DA24D89364007C47B2 /* NewCollectionViewCell.xib */; };
+		4A3E55DF24D8C45B007C47B2 /* BonusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3E55DD24D8C45B007C47B2 /* BonusTableViewCell.swift */; };
+		4A3E55E024D8C45B007C47B2 /* BonusTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A3E55DE24D8C45B007C47B2 /* BonusTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A3E559F24D49551007C47B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A3E558024D49550007C47B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A3E558724D49550007C47B2;
+			remoteInfo = Revo_Project;
+		};
+		4A3E55AA24D49551007C47B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A3E558024D49550007C47B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A3E558724D49550007C47B2;
+			remoteInfo = Revo_Project;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A3E558824D49550007C47B2 /* Revo_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Revo_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3E558B24D49550007C47B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A3E558D24D49550007C47B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4A3E558F24D49550007C47B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A3E559224D49550007C47B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A3E559424D49551007C47B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A3E559724D49551007C47B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A3E559924D49551007C47B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3E559E24D49551007C47B2 /* Revo_ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Revo_ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3E55A224D49551007C47B2 /* Revo_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Revo_ProjectTests.swift; sourceTree = "<group>"; };
+		4A3E55A424D49551007C47B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3E55A924D49551007C47B2 /* Revo_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Revo_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3E55AD24D49551007C47B2 /* Revo_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Revo_ProjectUITests.swift; sourceTree = "<group>"; };
+		4A3E55AF24D49551007C47B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3E55BB24D49943007C47B2 /* PartOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartOneViewController.swift; sourceTree = "<group>"; };
+		4A3E55BD24D6410F007C47B2 /* FirstCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCustomCell.swift; sourceTree = "<group>"; };
+		4A3E55BE24D6410F007C47B2 /* FirstCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstCustomCell.xib; sourceTree = "<group>"; };
+		4A3E55C524D7195A007C47B2 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		4A3E55C624D7195A007C47B2 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		4A3E55CC24D7217D007C47B2 /* SecondCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCustomCell.swift; sourceTree = "<group>"; };
+		4A3E55CD24D7217D007C47B2 /* SecondCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondCustomCell.xib; sourceTree = "<group>"; };
+		4A3E55D024D75D11007C47B2 /* PartTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTwoViewController.swift; sourceTree = "<group>"; };
+		4A3E55D224D7D0C1007C47B2 /* BonusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusViewController.swift; sourceTree = "<group>"; };
+		4A3E55D424D7FCBB007C47B2 /* TopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCollectionViewCell.swift; sourceTree = "<group>"; };
+		4A3E55D924D89364007C47B2 /* NewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCollectionViewCell.swift; sourceTree = "<group>"; };
+		4A3E55DA24D89364007C47B2 /* NewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewCollectionViewCell.xib; sourceTree = "<group>"; };
+		4A3E55DD24D8C45B007C47B2 /* BonusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusTableViewCell.swift; sourceTree = "<group>"; };
+		4A3E55DE24D8C45B007C47B2 /* BonusTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BonusTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A3E558524D49550007C47B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3E559B24D49551007C47B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3E55A624D49551007C47B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A3E557F24D49550007C47B2 = {
+			isa = PBXGroup;
+			children = (
+				4A3E558A24D49550007C47B2 /* Revo_Project */,
+				4A3E55A124D49551007C47B2 /* Revo_ProjectTests */,
+				4A3E55AC24D49551007C47B2 /* Revo_ProjectUITests */,
+				4A3E558924D49550007C47B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A3E558924D49550007C47B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A3E558824D49550007C47B2 /* Revo_Project.app */,
+				4A3E559E24D49551007C47B2 /* Revo_ProjectTests.xctest */,
+				4A3E55A924D49551007C47B2 /* Revo_ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A3E558A24D49550007C47B2 /* Revo_Project */ = {
+			isa = PBXGroup;
+			children = (
+				4A3E558B24D49550007C47B2 /* AppDelegate.swift */,
+				4A3E558D24D49550007C47B2 /* SceneDelegate.swift */,
+				4A3E558F24D49550007C47B2 /* ViewController.swift */,
+				4A3E55BB24D49943007C47B2 /* PartOneViewController.swift */,
+				4A3E55D024D75D11007C47B2 /* PartTwoViewController.swift */,
+				4A3E55D224D7D0C1007C47B2 /* BonusViewController.swift */,
+				4A3E55C924D71C93007C47B2 /* TableViewCell */,
+				4A3E55CA24D71CB6007C47B2 /* CollectionViewViewCell */,
+				4A3E55D824D7FCCC007C47B2 /* BonusCollectionViewCells */,
+				4A3E559124D49550007C47B2 /* Main.storyboard */,
+				4A3E559424D49551007C47B2 /* Assets.xcassets */,
+				4A3E559624D49551007C47B2 /* LaunchScreen.storyboard */,
+				4A3E559924D49551007C47B2 /* Info.plist */,
+			);
+			path = Revo_Project;
+			sourceTree = "<group>";
+		};
+		4A3E55A124D49551007C47B2 /* Revo_ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A3E55A224D49551007C47B2 /* Revo_ProjectTests.swift */,
+				4A3E55A424D49551007C47B2 /* Info.plist */,
+			);
+			path = Revo_ProjectTests;
+			sourceTree = "<group>";
+		};
+		4A3E55AC24D49551007C47B2 /* Revo_ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A3E55AD24D49551007C47B2 /* Revo_ProjectUITests.swift */,
+				4A3E55AF24D49551007C47B2 /* Info.plist */,
+			);
+			path = Revo_ProjectUITests;
+			sourceTree = "<group>";
+		};
+		4A3E55C924D71C93007C47B2 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4A3E55BD24D6410F007C47B2 /* FirstCustomCell.swift */,
+				4A3E55BE24D6410F007C47B2 /* FirstCustomCell.xib */,
+				4A3E55CC24D7217D007C47B2 /* SecondCustomCell.swift */,
+				4A3E55CD24D7217D007C47B2 /* SecondCustomCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		4A3E55CA24D71CB6007C47B2 /* CollectionViewViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4A3E55C524D7195A007C47B2 /* MyCollectionViewCell.swift */,
+				4A3E55C624D7195A007C47B2 /* MyCollectionViewCell.xib */,
+			);
+			path = CollectionViewViewCell;
+			sourceTree = "<group>";
+		};
+		4A3E55D824D7FCCC007C47B2 /* BonusCollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4A3E55D424D7FCBB007C47B2 /* TopCollectionViewCell.swift */,
+				4A3E55DD24D8C45B007C47B2 /* BonusTableViewCell.swift */,
+				4A3E55DE24D8C45B007C47B2 /* BonusTableViewCell.xib */,
+				4A3E55D924D89364007C47B2 /* NewCollectionViewCell.swift */,
+				4A3E55DA24D89364007C47B2 /* NewCollectionViewCell.xib */,
+			);
+			path = BonusCollectionViewCells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A3E558724D49550007C47B2 /* Revo_Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3E55B224D49551007C47B2 /* Build configuration list for PBXNativeTarget "Revo_Project" */;
+			buildPhases = (
+				4A3E558424D49550007C47B2 /* Sources */,
+				4A3E558524D49550007C47B2 /* Frameworks */,
+				4A3E558624D49550007C47B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Revo_Project;
+			productName = Revo_Project;
+			productReference = 4A3E558824D49550007C47B2 /* Revo_Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A3E559D24D49551007C47B2 /* Revo_ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3E55B524D49551007C47B2 /* Build configuration list for PBXNativeTarget "Revo_ProjectTests" */;
+			buildPhases = (
+				4A3E559A24D49551007C47B2 /* Sources */,
+				4A3E559B24D49551007C47B2 /* Frameworks */,
+				4A3E559C24D49551007C47B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A3E55A024D49551007C47B2 /* PBXTargetDependency */,
+			);
+			name = Revo_ProjectTests;
+			productName = Revo_ProjectTests;
+			productReference = 4A3E559E24D49551007C47B2 /* Revo_ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A3E55A824D49551007C47B2 /* Revo_ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3E55B824D49551007C47B2 /* Build configuration list for PBXNativeTarget "Revo_ProjectUITests" */;
+			buildPhases = (
+				4A3E55A524D49551007C47B2 /* Sources */,
+				4A3E55A624D49551007C47B2 /* Frameworks */,
+				4A3E55A724D49551007C47B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A3E55AB24D49551007C47B2 /* PBXTargetDependency */,
+			);
+			name = Revo_ProjectUITests;
+			productName = Revo_ProjectUITests;
+			productReference = 4A3E55A924D49551007C47B2 /* Revo_ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A3E558024D49550007C47B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Chris N.";
+				TargetAttributes = {
+					4A3E558724D49550007C47B2 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					4A3E559D24D49551007C47B2 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 4A3E558724D49550007C47B2;
+					};
+					4A3E55A824D49551007C47B2 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 4A3E558724D49550007C47B2;
+					};
+				};
+			};
+			buildConfigurationList = 4A3E558324D49550007C47B2 /* Build configuration list for PBXProject "Revo_Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A3E557F24D49550007C47B2;
+			productRefGroup = 4A3E558924D49550007C47B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A3E558724D49550007C47B2 /* Revo_Project */,
+				4A3E559D24D49551007C47B2 /* Revo_ProjectTests */,
+				4A3E55A824D49551007C47B2 /* Revo_ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A3E558624D49550007C47B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3E55C824D7195A007C47B2 /* MyCollectionViewCell.xib in Resources */,
+				4A3E55E024D8C45B007C47B2 /* BonusTableViewCell.xib in Resources */,
+				4A3E559824D49551007C47B2 /* LaunchScreen.storyboard in Resources */,
+				4A3E559524D49551007C47B2 /* Assets.xcassets in Resources */,
+				4A3E55DC24D89364007C47B2 /* NewCollectionViewCell.xib in Resources */,
+				4A3E559324D49550007C47B2 /* Main.storyboard in Resources */,
+				4A3E55CF24D7217D007C47B2 /* SecondCustomCell.xib in Resources */,
+				4A3E55C024D64110007C47B2 /* FirstCustomCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3E559C24D49551007C47B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3E55A724D49551007C47B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A3E558424D49550007C47B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3E559024D49550007C47B2 /* ViewController.swift in Sources */,
+				4A3E558C24D49550007C47B2 /* AppDelegate.swift in Sources */,
+				4A3E55D624D7FCBB007C47B2 /* TopCollectionViewCell.swift in Sources */,
+				4A3E55C724D7195A007C47B2 /* MyCollectionViewCell.swift in Sources */,
+				4A3E55CE24D7217D007C47B2 /* SecondCustomCell.swift in Sources */,
+				4A3E55DF24D8C45B007C47B2 /* BonusTableViewCell.swift in Sources */,
+				4A3E55D324D7D0C1007C47B2 /* BonusViewController.swift in Sources */,
+				4A3E55BF24D64110007C47B2 /* FirstCustomCell.swift in Sources */,
+				4A3E55BC24D49943007C47B2 /* PartOneViewController.swift in Sources */,
+				4A3E55D124D75D11007C47B2 /* PartTwoViewController.swift in Sources */,
+				4A3E55DB24D89364007C47B2 /* NewCollectionViewCell.swift in Sources */,
+				4A3E558E24D49550007C47B2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3E559A24D49551007C47B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3E55A324D49551007C47B2 /* Revo_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3E55A524D49551007C47B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3E55AE24D49551007C47B2 /* Revo_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A3E55A024D49551007C47B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A3E558724D49550007C47B2 /* Revo_Project */;
+			targetProxy = 4A3E559F24D49551007C47B2 /* PBXContainerItemProxy */;
+		};
+		4A3E55AB24D49551007C47B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A3E558724D49550007C47B2 /* Revo_Project */;
+			targetProxy = 4A3E55AA24D49551007C47B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A3E559124D49550007C47B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A3E559224D49550007C47B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A3E559624D49551007C47B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A3E559724D49551007C47B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A3E55B024D49551007C47B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A3E55B124D49551007C47B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A3E55B324D49551007C47B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JPV3NX8Z6;
+				INFOPLIST_FILE = Revo_Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AsteroidBlues.Revo-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A3E55B424D49551007C47B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JPV3NX8Z6;
+				INFOPLIST_FILE = Revo_Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AsteroidBlues.Revo-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A3E55B624D49551007C47B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JPV3NX8Z6;
+				INFOPLIST_FILE = Revo_ProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AsteroidBlues.Revo-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Revo_Project.app/Revo_Project";
+			};
+			name = Debug;
+		};
+		4A3E55B724D49551007C47B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JPV3NX8Z6;
+				INFOPLIST_FILE = Revo_ProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AsteroidBlues.Revo-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Revo_Project.app/Revo_Project";
+			};
+			name = Release;
+		};
+		4A3E55B924D49551007C47B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JPV3NX8Z6;
+				INFOPLIST_FILE = Revo_ProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AsteroidBlues.Revo-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Revo_Project;
+			};
+			name = Debug;
+		};
+		4A3E55BA24D49551007C47B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JPV3NX8Z6;
+				INFOPLIST_FILE = Revo_ProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AsteroidBlues.Revo-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Revo_Project;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A3E558324D49550007C47B2 /* Build configuration list for PBXProject "Revo_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3E55B024D49551007C47B2 /* Debug */,
+				4A3E55B124D49551007C47B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3E55B224D49551007C47B2 /* Build configuration list for PBXNativeTarget "Revo_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3E55B324D49551007C47B2 /* Debug */,
+				4A3E55B424D49551007C47B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3E55B524D49551007C47B2 /* Build configuration list for PBXNativeTarget "Revo_ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3E55B624D49551007C47B2 /* Debug */,
+				4A3E55B724D49551007C47B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3E55B824D49551007C47B2 /* Build configuration list for PBXNativeTarget "Revo_ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3E55B924D49551007C47B2 /* Debug */,
+				4A3E55BA24D49551007C47B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A3E558024D49550007C47B2 /* Project object */;
+}
